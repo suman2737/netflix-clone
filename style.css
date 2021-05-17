@@ -498,12 +498,63 @@ body{
         font-size: 3.2rem;
         letter-spacing: 1.5px;
         padding-bottom: 5px;
+        text-align: center;
+        
     }
     
     .part2 .talk p{
         font-size: 1.5rem;  
     }
     .part2 .img{
+        width:80%;
+    }
+    .part3{
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 2rem 1rem;
+        text-align: center;
+    
+    }
+    
+    .part3 .talk{
+        width: 80%;
+        margin: 20px 0 30px 0;
+    }
+    .part3 .talk h1{
+        font-size: 3.2rem;
+        letter-spacing: 1.5px;
+        padding-bottom: 5px;
+    }
+    
+    .part3 .talk p{
+        font-size: 1.5rem;
+    }
+    .part3 .img{
+        width: 80%;
+    }
+    .part4{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 1rem;
+    
+    }
+    
+    .part4 .talk{
+        width: 80%;
+        margin: 20PX 0 30px 0;
+    }
+    .part4 .talk h1{
+        font-size: 3.2rem;
+        letter-spacing: 1.5px;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    
+    .part4 .talk p{
+        font-size: 1.5rem;  
+    }
+    .part4 .img{
         width:80%;
     }
     .list{
@@ -584,6 +635,22 @@ body{
     }
     
     .part2 .talk p{
+        font-size: 1.2rem;
+    }
+     .part3 .talk h1{
+        font-size: 3rem;
+        letter-spacing: 1.2px;
+    }        
+    
+    .part3 .talk p{
+        font-size: 1.2rem;
+    }
+    .part4 .talk h1{
+        font-size: 3rem;
+        letter-spacing: 1.2px;
+    }
+    
+    .part4 .talk p{
         font-size: 1.2rem;
     }
     .list{
